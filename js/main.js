@@ -45,7 +45,7 @@
         $('.progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
-    }, {offset: '80%'});
+    }, {offset: '100%'});
 
 
     // Facts counter

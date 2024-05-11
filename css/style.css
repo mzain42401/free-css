@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
+    --primary: #6222cc;
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
@@ -90,9 +90,9 @@ h6,
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
-    content: "\f067";
+    content: "\f063";
     font-family: "Font Awesome 5 Free";
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     vertical-align: middle;
     margin-left: 8px;
@@ -435,7 +435,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(98, 34, 204, .9);
+    background: #6222cc;
     transition: .5s;
     opacity: 0;
 }
